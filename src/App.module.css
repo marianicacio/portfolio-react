@@ -109,3 +109,79 @@ body {
   height: 191px;
   background-color: var(--gray-color);
 }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 62px;
+}
+
+.heroDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.heroDescription h1 {
+  width: 637px;
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--white-color);
+}
+
+.heroDescription span {
+  color: var(--purple-color);
+}
+
+.heroDescription p {
+  text-align: start;
+  width: 463px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.heroDescription button {
+  background-color: transparent;
+  border: solid 1px var(--purple-color);
+  color: var(--white-color);
+  width: 148px;
+  height: 37px;
+}
+
+.heroDescription button:hover {
+  transition: 2s;
+  background-color: var(--purple-color);
+}
+
+.heroImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rectangle {
+  width: 16px;
+  height: 16px;
+  background-color: var(--purple-color);
+}
+
+.heroCurrently {
+  display: flex;
+  gap: 3.5px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--white-color);
+  width: 402px;
+  height: 37px;
+}
+
+.heroCurrently p {
+  color: var(--gray-color);
+}
+
+.heroCurrently span {
+  color: var(--white-color);
+}

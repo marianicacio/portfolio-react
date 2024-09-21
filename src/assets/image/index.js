@@ -4,3 +4,4 @@ export {default as LogoOutline} from './logo-outline.svg';
 export {default as Dribble} from './dribble.svg';
 export {default as Figma} from './figma.svg';
 export {default as Github} from './github.svg';
+export {default as MainImage} from './main-img.svg';
