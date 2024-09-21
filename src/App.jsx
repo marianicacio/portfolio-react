@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -39,6 +39,20 @@ function App() {
           </select>
         </nav>
       </header>
+      <main className={styles.hero}>
+        <section className={styles.heroDescription}>
+        <h1>Maria Eduarda is a <span>web designer</span> and <span>front-end developer</span></h1>
+        <p>He crafts responsive websites where technologies meet creativity</p>
+        <button>Contact me!!</button>
+        </section>
+        <section className={styles.heroImage}>
+        <img src={MainImage} alt="" />
+        <div className={styles.heroCurrently}>
+        <div className={styles.rectangle}></div>
+        <p>Currently working on <span>Portfolio</span></p>
+        </div>
+        </section>
+      </main>
     </div>
   );
 }
