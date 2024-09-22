@@ -5,3 +5,5 @@ export {default as Dribble} from './dribble.svg';
 export {default as Figma} from './figma.svg';
 export {default as Github} from './github.svg';
 export {default as MainImage} from './main-img.svg';
+export {default as Aspas1} from './aspas-1.svg';
+export {default as Aspas2} from './aspas-2.svg';

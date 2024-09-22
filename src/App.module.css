@@ -185,3 +185,41 @@ body {
 .heroCurrently span {
   color: var(--white-color);
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 125px;
+}
+
+.quote p {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.quote h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+.phrase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 712px;
+  height: 95px;
+  border: var(--gray-color) solid 1px;
+}
+
+.drWho {
+  display: flex;
+  justify-content: center;
+  width: 162px;
+  height: 63px;
+  align-items: center;
+  border: var(--gray-color) solid 1px;
+}

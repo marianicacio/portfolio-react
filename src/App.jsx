@@ -41,18 +41,26 @@ function App() {
       </header>
       <main className={styles.hero}>
         <section className={styles.heroDescription}>
-        <h1>Maria Eduarda is a <span>web designer</span> and <span>front-end developer</span></h1>
-        <p>He crafts responsive websites where technologies meet creativity</p>
-        <button>Contact me!!</button>
+          <h1>Maria Eduarda is a <span>web designer</span> and <span>front-end developer</span></h1>
+          <p>He crafts responsive websites where technologies meet creativity</p>
+          <button>Contact me!!</button>
         </section>
         <section className={styles.heroImage}>
-        <img src={MainImage} alt="" />
-        <div className={styles.heroCurrently}>
-        <div className={styles.rectangle}></div>
-        <p>Currently working on <span>Portfolio</span></p>
-        </div>
+          <img src={MainImage} alt="" />
+          <div className={styles.heroCurrently}>
+            <div className={styles.rectangle}></div>
+            <p>Currently working on <span>Portfolio</span></p>
+          </div>
         </section>
       </main>
+      <section className={styles.quote}>
+      <div className={styles.phrase}>
+        <p>With great power comes great electricity bill</p>
+      </div>
+      <div className={styles.drWho}>
+        <h1>- Dr. Who</h1>
+      </div>
+      </section>
     </div>
   );
 }
