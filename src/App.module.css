@@ -215,6 +215,16 @@ body {
   border: var(--gray-color) solid 1px;
 }
 
+.phrase img {
+  background-color: var(--background-color);
+  display: flex;
+  position: absolute;
+  left: 300px;
+  width: 25.47px;
+  height: 20.7px;
+  top: 660px;
+}
+
 .drWho {
   display: flex;
   justify-content: center;
@@ -222,4 +232,14 @@ body {
   height: 63px;
   align-items: center;
   border: var(--gray-color) solid 1px;
+}
+
+.drWho img {
+  background-color: var(--background-color);
+  display: flex;
+  position: absolute;
+  width: 25.47px;
+  height: 20.7px;
+  top: 755px;
+  right: 284px;
 }

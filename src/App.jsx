@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2 } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -55,9 +55,11 @@ function App() {
       </main>
       <section className={styles.quote}>
       <div className={styles.phrase}>
+        <img src={Aspas1} alt="" />
         <p>With great power comes great electricity bill</p>
       </div>
       <div className={styles.drWho}>
+        <img src={Aspas2} alt="" />
         <h1>- Dr. Who</h1>
       </div>
       </section>
