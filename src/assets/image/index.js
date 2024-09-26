@@ -8,3 +8,5 @@ export {default as MainImage} from './main-img.svg';
 export {default as Aspas1} from './aspas-1.svg';
 export {default as Aspas2} from './aspas-2.svg';
 export {default as Rectangle} from './rectangle.svg'
+export {default as Bolinhas} from './projects-ball.svg'
+export {default as ChertNodes} from './chert-nodes.svg'
