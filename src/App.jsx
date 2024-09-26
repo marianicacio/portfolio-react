@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -67,11 +67,31 @@ function App() {
         <img src={Rectangle} alt="" />
       </section>
       <section className={styles.projects}>
-        <div className={styles.projectsTitle}>
-          <h1><span>#</span>projects</h1>
-          <div className={styles.linePurple}></div>
+        <div className={styles.projectsAlign}>
+          <div className={styles.projectsTitle}>
+            <h1><span>#</span>projects</h1>
+            <div className={styles.linePurple}></div>
+          </div>
+          <button><a href=""> View all ~~> </a></button>
         </div>
-        <button><a href=""> View all ~~> </a></button>
+        <img src={Bolinhas} alt="" />
+      </section>
+      <section className={styles.projectsView}>
+        <div className={styles.node}>
+          <img src={ChertNodes} alt="" />
+          <div className={styles.languages}>
+            <p>HTML</p>
+            <p>SCSS</p>
+            <p>Python</p>
+            <p>Flask</p>
+          </div>
+          <h1>ChertNodes</h1>
+          <p>Minecraft servers hosting </p>
+          <div className={styles.buttons}>
+          <button> Live </button>
+          <button> Cached </button>
+          </div>
+        </div>
       </section>
     </div>
   );
