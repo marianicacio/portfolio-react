@@ -188,8 +188,8 @@ body {
 
 .quote {
   display: flex;
-  flex-direction: column;
   align-items: end;
+  justify-content: end;
   margin-top: 125px;
 }
 
@@ -203,6 +203,11 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: var(--white-color);
+}
+
+.quote img {
+  position: absolute;
+  right: 0px;
 }
 
 .phrase {
@@ -219,7 +224,7 @@ body {
   background-color: var(--background-color);
   display: flex;
   position: absolute;
-  left: 300px;
+  left: 670px;
   width: 25.47px;
   height: 20.7px;
   top: 660px;
@@ -241,5 +246,12 @@ body {
   width: 25.47px;
   height: 20.7px;
   top: 755px;
-  right: 284px;
+  right: 634px;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
 }
