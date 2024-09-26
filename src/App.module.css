@@ -255,3 +255,47 @@ body {
   justify-content: end;
   align-items: end;
 }
+
+.projects {
+  display: flex;
+  gap: 210px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 74px;
+}
+
+.projectsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.projectsTitle h1 {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.projectsTitle span {
+  color: var(--purple-color);
+}
+
+.projects button {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
+.projects a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.linePurple {
+  width: 511px;
+  height: 1px;
+  background-color: var(--purple-color);
+}

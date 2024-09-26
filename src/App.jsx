@@ -64,7 +64,14 @@ function App() {
             <h1>- Dr. Who</h1>
           </div>
         </div>
-          <img src={Rectangle} alt="" />
+        <img src={Rectangle} alt="" />
+      </section>
+      <section className={styles.projects}>
+        <div className={styles.projectsTitle}>
+          <h1><span>#</span>projects</h1>
+          <div className={styles.linePurple}></div>
+        </div>
+        <button><a href=""> View all ~~> </a></button>
       </section>
     </div>
   );
