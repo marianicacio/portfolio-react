@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -85,12 +85,40 @@ function App() {
             <p>Python</p>
             <p>Flask</p>
           </div>
-          <h1>ChertNodes</h1>
-          <p>Minecraft servers hosting </p>
-          <div className={styles.buttons}>
-          <button> Live </button>
-          <button> Cached </button>
+          <div className={styles.description}>
+            <h1>ChertNodes</h1>
+            <p>Minecraft servers hosting </p>
           </div>
+          <div className={styles.buttons}>
+            <div className={styles.liveButton}>
+              <button> Live </button>
+            </div>
+            <div className={styles.cachedButton}>
+              <button> Cached </button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.protectX}>
+          <img src={ProtectX} alt="" />
+          <div className={styles.languagesProtectX}>
+            <div className={styles.technologyOne}>
+              <p>React</p>
+              <p>Express</p>
+              <p>Discord.js</p>
+              <p>Node.js</p>
+            </div>
+            <div className={styles.technologyTwo}>
+              <p>HTML</p>
+              <p>SCSS</p>
+              <p>Python</p>
+              <p>Flask</p>
+            </div>
+          </div>
+          <div className={styles.description}>
+            <h1>ProtectX</h1>
+            <p>Discord anti-crash bot</p>
+          </div>
+          <button> Live </button>
         </div>
       </section>
     </div>

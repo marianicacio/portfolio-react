@@ -293,6 +293,7 @@ body {
   text-decoration: none;
   background-color: transparent;
   border: none;
+  font-family: 'Fira Code';
 }
 
 .projects a {
@@ -313,6 +314,7 @@ body {
 
 .projectsView {
   display: flex;
+  gap: 16px;
 }
 
 .node {
@@ -354,9 +356,107 @@ body {
   margin-left: 8px;
 }
 
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.description h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--white-color);
+  margin-left: 8px;
+  margin-top: 16px;
+}
+
+.description p {
+  color: var(--gray-color);
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .buttons {
   display: flex;
   margin-left: 8px;
   margin-top: 16px;
   gap: 16px;
+}
+
+.liveButton button {
+  border: 1px solid var(--purple-color);
+  width: 109px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Fira Code';
+  color: var(--white-color);
+  background-color: transparent;
+}
+
+.cachedButton button {
+  border: 1px solid var(--gray-color);
+  width: 109px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Fira Code';
+  color: var(--gray-color);
+  background-color: transparent;
+}
+
+.liveButton button:hover {
+  background-color: var(--purple-color);
+  width: 109px;
+  height: 37px;
+  transition-duration: 2s;
+}
+
+.cachedButton button:hover {
+  background-color: #9123af;
+  width: 109px;
+  height: 37px;
+  transition-duration: 2s;
+}
+
+.protectX {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--white-color);
+  width: 330.58px;
+  height: 428px;
+}
+
+.technologyOne {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.technologyTwo {
+  display: flex;
+  align-items: center;
+  gap: 4px
+}
+
+.languagesProtectX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  align-items: start;
+  border: 1px solid var(--white-color);
+  width: 330.58px;
+  height: 74px;
+}
+
+.languagesProtectX p {
+  display: flex;
+  color: var(--gray-color);
+  margin-left: 8px;
 }

@@ -10,3 +10,4 @@ export {default as Aspas2} from './aspas-2.svg';
 export {default as Rectangle} from './rectangle.svg'
 export {default as Bolinhas} from './projects-ball.svg'
 export {default as ChertNodes} from './chert-nodes.svg'
+export {default as ProtectX} from './projects-protectX.svg'
