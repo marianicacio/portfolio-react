@@ -310,6 +310,7 @@
 
 .projectsView {
   display: flex;
+  margin-top: 48px;
   gap: 16px;
 }
 
