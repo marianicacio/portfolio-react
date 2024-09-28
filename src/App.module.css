@@ -7,10 +7,6 @@
   --white-color: #FFFFFF;
 }
 
-body {
-  background-color: var(--background-color);
-}
-
 .portifolioContainer {
   width: 100%;
   display: flex;
