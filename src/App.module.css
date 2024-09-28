@@ -460,3 +460,11 @@ body {
   color: var(--gray-color);
   margin-left: 8px;
 }
+
+.kahoot {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--white-color);
+  width: 330.58px;
+  height: 422px;
+}

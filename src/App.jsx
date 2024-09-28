@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -118,7 +118,28 @@ function App() {
             <h1>ProtectX</h1>
             <p>Discord anti-crash bot</p>
           </div>
-          <button> Live </button>
+          <div className={styles.buttons}>
+            <div className={styles.liveButton}>
+              <button> Live </button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.kahoot}>
+          <img src={Kahoot} alt="" />
+          <div className={styles.languages}>
+            <p>CSS</p>
+            <p>Express</p>
+            <p>Node.js</p>
+          </div>
+          <div className={styles.description}>
+            <h1>Kahoot Answers Viewer</h1>
+            <p>Get answers to your kahoot quiz</p>
+          </div>
+          <div className={styles.buttons}>
+            <div className={styles.liveButton}>
+              <button> Live </button>
+            </div>
+          </div>
         </div>
       </section>
     </div>
