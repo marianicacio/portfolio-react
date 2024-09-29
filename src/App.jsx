@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot, Skills } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -141,6 +141,79 @@ function App() {
             </div>
           </div>
         </div>
+      </section>
+      <section className={styles.skillsSection}>
+        <article className={styles.skills}>
+          <div className={styles.projectsTitle}>
+            <h1><span>#</span>skills</h1>
+            <div className={styles.linePurple2}></div>
+          </div>
+          <img src={Skills} alt="" />
+        </article>
+        <article>
+          <div>
+            <h1>Languages</h1>
+          </div>
+          <p>TypeScript</p>
+          <p>Lua</p>
+          <br />
+          <p>Python</p>
+          <p>JavaScript</p>
+        </article>
+        <section>
+        <article>
+          <div>
+            <h1>Databases</h1>
+          </div>
+          <p>SQLite</p>
+          <p>PostgreSQL</p>
+          <br />
+          <p>Mongo</p>
+        </article>
+        <article>
+          <div>
+            <h1>Other</h1>
+          </div>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>EJS</p>
+          <p>SCSS</p>
+          <br />
+          <p>REST</p>
+          <p>Jinja</p>
+        </article>
+        </section>
+        <section>
+        <article>
+          <div>
+            <h1>Tools</h1>
+          </div>
+          <p>VSCode</p>
+          <p>Neovim</p>
+          <p>Linux</p>
+          <br />
+          <p>Figma</p>
+          <p>XFCE</p>
+          <p>Arch</p>
+          <br />
+          <p>Git</p>
+          <p>Font</p>
+          <p>Awesome</p>
+        </article>
+        <article>
+          <div>
+            <h1>Frameworks</h1>
+          </div>
+          <p>React</p>
+          <p>Vue</p>
+          <br />
+          <p>Disnake</p>
+          <p>Discord.js</p>
+          <br />
+          <p>Flask</p>
+          <p>Express.js</p>
+        </article>
+        </section>
       </section>
     </div>
   );
