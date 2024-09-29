@@ -465,3 +465,22 @@
   width: 330.58px;
   height: 422px;
 }
+
+.skillsSection {
+  display: flex;
+  margin-top: 106px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.linePurple2 {
+  width: 235px;
+  height: 1px;
+  background-color: var(--purple-color);
+}
