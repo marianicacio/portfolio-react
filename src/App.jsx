@@ -107,7 +107,7 @@ function App() {
               <p>Discord.js</p>
               <p>Node.js</p>
             </div>
-            <div className={styles.technologyTwo}>
+            <div className={styles.technologyOne}>
               <p>HTML</p>
               <p>SCSS</p>
               <p>Python</p>
@@ -154,67 +154,91 @@ function App() {
           <div className={styles.skillsBorder}>
             <h1>Languages</h1>
           </div>
-          <div className={styles.skillsDescrption}>
-            <p>TypeScript</p>
-            <p>Lua</p>
-          </div>
-          <div className={styles.skillsDescrption}>
-            <p>Python</p>
-            <p>JavaScript</p>
+          <div className={styles.skillsSquare}>
+            <div className={styles.skillsDescription}>
+              <p>TypeScript</p>
+              <p>Lua</p>
+            </div>
+            <div className={styles.skillsDescription}>
+              <p>Python</p>
+              <p>JavaScript</p>
+            </div>
           </div>
         </article>
-        <section>
+        <section className={styles.skillsAlign}>
           <article className={styles.skillsContainer}>
             <div className={styles.skillsBorder}>
               <h1>Databases</h1>
             </div>
-            <p>SQLite</p>
-            <p>PostgreSQL</p>
-            <br />
-            <p>Mongo</p>
+            <div className={styles.skillsSquare}>
+              <div className={styles.skillsDescription}>
+                <p>SQLite</p>
+                <p>PostgreSQL</p>
+              </div>
+              <div className={styles.skillsDescription}>
+                <p>Mongo</p>
+              </div>
+            </div>
           </article>
           <article className={styles.skillsContainer}>
             <div className={styles.skillsBorder}>
               <h1>Other</h1>
             </div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>EJS</p>
-            <p>SCSS</p>
-            <br />
-            <p>REST</p>
-            <p>Jinja</p>
+            <div className={styles.skillsSquare}>
+              <div className={styles.skillsDescription}>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>EJS</p>
+                <p>SCSS</p>
+              </div>
+              <div className={styles.skillsDescription}>
+                <p>REST</p>
+                <p>Jinja</p>
+              </div>
+            </div>
           </article>
         </section>
-        <section>
-          <article className={styles.skillsContainer}>
-            <div>
+        <section className={styles.skillsAlign}>
+          <article className={styles.skillsContainerTwo}>
+            <div className={styles.skillsBorderTwo}>
               <h1>Tools</h1>
             </div>
-            <p>VSCode</p>
-            <p>Neovim</p>
-            <p>Linux</p>
-            <br />
-            <p>Figma</p>
-            <p>XFCE</p>
-            <p>Arch</p>
-            <br />
-            <p>Git</p>
-            <p>Font</p>
-            <p>Awesome</p>
+            <div className={styles.skillsSquare}>
+              <div className={styles.skillsDescription}>
+                <p>VSCode</p>
+                <p>Neovim</p>
+                <p>Linux</p>
+              </div>
+              <div className={styles.skillsDescription}>
+                <p>Figma</p>
+                <p>XFCE</p>
+                <p>Arch</p>
+              </div>
+              <div className={styles.skillsDescription}>
+                <p>Git</p>
+                <p>Font</p>
+                <p>Awesome</p>
+              </div>
+            </div>
           </article>
-          <article className={styles.skillsContainer}>
-            <div>
+          <article className={styles.skillsContainerTwo}>
+            <div className={styles.skillsBorderTwo}>
               <h1>Frameworks</h1>
             </div>
-            <p>React</p>
-            <p>Vue</p>
-            <br />
-            <p>Disnake</p>
-            <p>Discord.js</p>
-            <br />
-            <p>Flask</p>
-            <p>Express.js</p>
+            <div className={styles.skillsSquare}>
+              <div className={styles.skillsDescription}>
+                <p>React</p>
+                <p>Vue</p>
+              </div>
+              <div className={styles.skillsDescription}>
+                <p>Disnake</p>
+                <p>Discord.js</p>
+              </div>
+              <div className={styles.skillsDescription}>
+                <p>Flask</p>
+                <p>Express.js</p>
+              </div>
+            </div>
           </article>
         </section>
       </section>
