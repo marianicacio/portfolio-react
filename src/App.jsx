@@ -150,69 +150,72 @@ function App() {
           </div>
           <img src={Skills} alt="" />
         </article>
-        <article>
-          <div>
+        <article className={styles.skillsContainer}>
+          <div className={styles.skillsBorder}>
             <h1>Languages</h1>
           </div>
-          <p>TypeScript</p>
-          <p>Lua</p>
-          <br />
-          <p>Python</p>
-          <p>JavaScript</p>
+          <div className={styles.skillsDescrption}>
+            <p>TypeScript</p>
+            <p>Lua</p>
+          </div>
+          <div className={styles.skillsDescrption}>
+            <p>Python</p>
+            <p>JavaScript</p>
+          </div>
         </article>
         <section>
-        <article>
-          <div>
-            <h1>Databases</h1>
-          </div>
-          <p>SQLite</p>
-          <p>PostgreSQL</p>
-          <br />
-          <p>Mongo</p>
-        </article>
-        <article>
-          <div>
-            <h1>Other</h1>
-          </div>
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>EJS</p>
-          <p>SCSS</p>
-          <br />
-          <p>REST</p>
-          <p>Jinja</p>
-        </article>
+          <article className={styles.skillsContainer}>
+            <div className={styles.skillsBorder}>
+              <h1>Databases</h1>
+            </div>
+            <p>SQLite</p>
+            <p>PostgreSQL</p>
+            <br />
+            <p>Mongo</p>
+          </article>
+          <article className={styles.skillsContainer}>
+            <div className={styles.skillsBorder}>
+              <h1>Other</h1>
+            </div>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>EJS</p>
+            <p>SCSS</p>
+            <br />
+            <p>REST</p>
+            <p>Jinja</p>
+          </article>
         </section>
         <section>
-        <article>
-          <div>
-            <h1>Tools</h1>
-          </div>
-          <p>VSCode</p>
-          <p>Neovim</p>
-          <p>Linux</p>
-          <br />
-          <p>Figma</p>
-          <p>XFCE</p>
-          <p>Arch</p>
-          <br />
-          <p>Git</p>
-          <p>Font</p>
-          <p>Awesome</p>
-        </article>
-        <article>
-          <div>
-            <h1>Frameworks</h1>
-          </div>
-          <p>React</p>
-          <p>Vue</p>
-          <br />
-          <p>Disnake</p>
-          <p>Discord.js</p>
-          <br />
-          <p>Flask</p>
-          <p>Express.js</p>
-        </article>
+          <article className={styles.skillsContainer}>
+            <div>
+              <h1>Tools</h1>
+            </div>
+            <p>VSCode</p>
+            <p>Neovim</p>
+            <p>Linux</p>
+            <br />
+            <p>Figma</p>
+            <p>XFCE</p>
+            <p>Arch</p>
+            <br />
+            <p>Git</p>
+            <p>Font</p>
+            <p>Awesome</p>
+          </article>
+          <article className={styles.skillsContainer}>
+            <div>
+              <h1>Frameworks</h1>
+            </div>
+            <p>React</p>
+            <p>Vue</p>
+            <br />
+            <p>Disnake</p>
+            <p>Discord.js</p>
+            <br />
+            <p>Flask</p>
+            <p>Express.js</p>
+          </article>
         </section>
       </section>
     </div>
