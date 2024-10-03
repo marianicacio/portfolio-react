@@ -198,7 +198,7 @@ function App() {
             </div>
           </article>
         </section>
-        <section className={styles.skillsAlign}>
+        <section className={styles.skillsAlignTwo}>
           <article className={styles.skillsContainerTwo}>
             <div className={styles.skillsBorderTwo}>
               <h1>Tools</h1>
