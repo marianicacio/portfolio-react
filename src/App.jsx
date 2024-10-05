@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot, Skills } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot, Skills, AboutImage, AboutSquare, AboutBalls } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -241,6 +241,32 @@ function App() {
             </div>
           </article>
         </section>
+      </section>
+      <section className={styles.heroTwo}>
+        <div className={styles.square}>
+          <img src={AboutSquare} alt="" />
+        </div>
+        <div className={styles.heroDescriptionTwo}>
+          <div className={styles.projectsTitle}>
+            <h1><span>#</span>about-me</h1>
+            <div className={styles.linePurple3}></div>
+          </div>
+
+          <p>Hello, i’m Elias!
+            <br />
+            <br />
+
+            I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.
+            <br />
+            <br />
+
+            Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
+          <button>Read more -> </button>
+        </div>
+        <img src={AboutImage} alt="" />
+        <div className={styles.balls}>
+          <img src={AboutBalls} alt="" />
+        </div>
       </section>
     </div>
   );

@@ -108,6 +108,7 @@
 
 .hero {
   display: flex;
+  gap: 18px;
   justify-content: center;
   align-items: center;
   margin-top: 62px;
@@ -560,4 +561,67 @@
   flex-direction: column;
   gap: 16px;
   margin-top: 180px;
+}
+
+.heroTwo {
+  display: flex;
+  gap: 166px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 112px;
+}
+
+.heroDescriptionTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.heroDescriptionTwo h1 {
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--white-color);
+}
+
+.heroDescriptionTwo span {
+  color: var(--purple-color);
+}
+
+.heroDescriptionTwo p {
+  text-align: start;
+  width: 515px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.heroDescriptionTwo button {
+  background-color: transparent;
+  border: solid 1px var(--purple-color);
+  color: var(--white-color);
+  width: 148px;
+  height: 37px;
+}
+
+.heroDescriptionTwo button:hover {
+  transition: 2s;
+  background-color: var(--purple-color);
+}
+
+.linePurple3 {
+  width: 326px;
+  height: 1px;
+  background-color: var(--purple-color);
+}
+
+.square {
+  position: absolute;
+  left: 0px;
+  top: 2290px;
+}
+
+.balls {
+  position: absolute;
+  right: 10px;
+  top: 2400px;
 }
