@@ -625,3 +625,14 @@
   right: 10px;
   top: 2400px;
 }
+
+.contacts {
+  display: flex;
+  gap: 314px;
+}
+
+.linePurple4 {
+  width: 127px;
+  height: 1px;
+  background-color: var(--purple-color);
+}
