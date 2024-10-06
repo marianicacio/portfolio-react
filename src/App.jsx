@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot, Skills, AboutImage, AboutSquare, AboutBalls } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot, Skills, AboutImage, AboutSquare, AboutBalls, Discord, Email } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -252,7 +252,7 @@ function App() {
             <div className={styles.linePurple3}></div>
           </div>
 
-          <p>Hello, i’m Elias!
+          <p>Hello, i’m Maria Eduarda!
             <br />
             <br />
 
@@ -267,6 +267,25 @@ function App() {
         <div className={styles.balls}>
           <img src={AboutBalls} alt="" />
         </div>
+      </section>
+      <section className={styles.contacts}>
+        <article>
+          <div className={styles.projectsTitle}>
+            <h1><span>#</span>contacts</h1>
+            <div className={styles.linePurple4}></div>
+          </div>
+          <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+        </article>
+        <article>
+          <div>
+            <img src={Discord} alt="" />
+            <p>Minhete#3519</p>
+          </div>
+          <div>
+            <img src={Email} alt="" />
+            <p>mariaeduarda.nicacio2007@gmail.com</p>
+          </div>
+        </article>
       </section>
     </div>
   );
