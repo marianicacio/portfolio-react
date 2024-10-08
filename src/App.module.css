@@ -631,8 +631,37 @@
   gap: 314px;
 }
 
+.contactsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 16px;
+}
+
+.contactsTitle h1 {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.contactsTitle span {
+  color: var(--purple-color);
+}
+
 .linePurple4 {
   width: 127px;
   height: 1px;
   background-color: var(--purple-color);
+}
+
+ .contactsTitle p {
+  width: 505px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
 }
