@@ -269,14 +269,15 @@ function App() {
         </div>
       </section>
       <section className={styles.contacts}>
-        <article>
-          <div className={styles.projectsTitle}>
-            <h1><span>#</span>contacts</h1>
-            <div className={styles.linePurple4}></div>
+        <article className={styles.contactsTitle}>
+          <div className={styles.contaContainer}>
+          <h1><span>#</span>contacts</h1>
+          <div className={styles.linePurple4}></div>
+            <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
           </div>
-          <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
         </article>
         <article>
+          <h1>Message me here</h1>
           <div>
             <img src={Discord} alt="" />
             <p>Minhete#3519</p>
