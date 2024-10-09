@@ -269,20 +269,20 @@ function App() {
         </div>
       </section>
       <section className={styles.contacts}>
-        <article className={styles.contactsTitle}>
-          <div className={styles.contaContainer}>
+        <article className={styles.contactsContainer}>
+          <div className={styles.contactsTitle}>
           <h1><span>#</span>contacts</h1>
           <div className={styles.linePurple4}></div>
-            <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
           </div>
+            <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
         </article>
-        <article>
+        <article className={styles.message}>
           <h1>Message me here</h1>
-          <div>
+          <div className={styles.socialMedia}>
             <img src={Discord} alt="" />
             <p>Minhete#3519</p>
           </div>
-          <div>
+          <div className={styles.socialMedia}>
             <img src={Email} alt="" />
             <p>mariaeduarda.nicacio2007@gmail.com</p>
           </div>
