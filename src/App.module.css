@@ -634,7 +634,7 @@
 .contactsTitle {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   gap: 16px;
 }
 
@@ -654,7 +654,7 @@
   background-color: var(--purple-color);
 }
 
- .contactsTitle p {
+.contactsTitle p {
   width: 505px;
   font-weight: 500;
   font-size: 16px;
@@ -664,4 +664,42 @@
 .contactsContainer {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 45px;
+}
+
+.contactsContainer p {
+  width: 505px;
+  color: var(--gray-color);
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gray-color);
+  width: 389px;
+  gap: 16px;
+  margin-top: 140px;
+  height: 120px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 5px;
+  padding-left: 16px;
+}
+
+.message h1 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 16px;
+  padding-left: 16px;
+  color: var(--white-color);
+}
+
+.socialMedia p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
 }
