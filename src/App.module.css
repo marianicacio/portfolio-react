@@ -631,6 +631,12 @@
   gap: 314px;
 }
 
+.contactsBalls {
+  position: absolute;
+  top: 2755px;
+  left: 0px;
+}
+
 .contactsTitle {
   display: flex;
   justify-content: center;
