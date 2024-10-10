@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import styles from './App.module.css'
-import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot, Skills, AboutImage, AboutSquare, AboutBalls, Discord, Email } from './assets/image';
+import { Logo, LogoOutline, ArrowDown, Dribble, Figma, Github, MainImage, Aspas1, Aspas2, Rectangle, Bolinhas, ChertNodes, ProtectX, Kahoot, Skills, AboutImage, AboutSquare, AboutBalls, Discord, Email, ContactsBalls } from './assets/image';
 import { validaWidth } from './assets/helpers';
 
 function App() {
@@ -269,12 +269,15 @@ function App() {
         </div>
       </section>
       <section className={styles.contacts}>
+        <div className={styles.contactsBalls}>
+          <img src={ContactsBalls} alt="" />
+        </div>
         <article className={styles.contactsContainer}>
           <div className={styles.contactsTitle}>
-          <h1><span>#</span>contacts</h1>
-          <div className={styles.linePurple4}></div>
+            <h1><span>#</span>contacts</h1>
+            <div className={styles.linePurple4}></div>
           </div>
-            <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
+          <p>I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me</p>
         </article>
         <article className={styles.message}>
           <h1>Message me here</h1>
