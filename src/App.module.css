@@ -477,6 +477,16 @@
   gap: 12px;
 }
 
+.skills img {
+  margin-left: 90px;
+}
+
+.skills .projectsTitle {
+  display: flex;
+  margin-left: 90px;
+  justify-content: start;
+}
+
 .linePurple2 {
   width: 235px;
   height: 1px;
@@ -628,7 +638,7 @@
 
 .contacts {
   display: flex;
-  gap: 150px;
+  gap: 130px;
 }
 
 .contactsBalls {
