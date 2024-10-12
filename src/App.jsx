@@ -291,6 +291,23 @@ function App() {
           </div>
         </article>
       </section>
+      <footer>
+        <section>
+          <div className={styles.headerTitle}>
+            <img src={Logo} alt="Logo" />
+            <h1>Maria Eduarda</h1>
+          </div>
+          <h2>elias@elias-dev.ml</h2>
+          <p>Web designer and front-end developer</p>
+        </section>
+        <section>
+          <h1>Media</h1>
+          <img src={Github} alt="" />
+          <img src={Figma} alt="" />
+          <img src={Discord} alt="" />
+        </section>
+        <p>© Copyright 2022. Made by Elias</p>
+      </footer>
     </div>
   );
 }
