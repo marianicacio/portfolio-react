@@ -292,19 +292,23 @@ function App() {
         </article>
       </section>
       <footer>
-        <section>
-          <div className={styles.headerTitle}>
-            <img src={Logo} alt="Logo" />
-            <h1>Maria Eduarda</h1>
-          </div>
-          <h2>elias@elias-dev.ml</h2>
-          <p>Web designer and front-end developer</p>
-        </section>
-        <section>
-          <h1>Media</h1>
-          <img src={Github} alt="" />
-          <img src={Figma} alt="" />
-          <img src={Discord} alt="" />
+        <section className={styles.footerContainer}>
+          <article className={styles.footerLogo}>
+            <div className={styles.footerTitle}>
+              <div className={styles.headerTitle}>
+                <img src={Logo} alt="Logo" />
+                <h1>Maria Eduarda</h1>
+              </div>
+              <h2>mariaeduarda.nicacio2007@gmail.com</h2>
+            </div>
+            <p>Web designer and front-end developer</p>
+          </article>
+          <article>
+            <h1>Media</h1>
+            <img src={Github} alt="" />
+            <img src={Figma} alt="" />
+            <img src={Discord} alt="" />
+          </article>
         </section>
         <p>© Copyright 2022. Made by Elias</p>
       </footer>

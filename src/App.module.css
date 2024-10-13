@@ -719,3 +719,52 @@
   font-size: 16px;
   color: var(--gray-color);
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 176px;
+  border: 1px var(--white-color) solid;
+  width: 100%;
+  height: 208px;
+}
+
+.footerContainer {
+  display: flex;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTitle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.footerTitle h1 {
+  font-family: "Fira Code", monospace;
+  color: var(--white-color);
+  width: 138px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.footerTitle h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.footerTitle img {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: flex-end;
+}
