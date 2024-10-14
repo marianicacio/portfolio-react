@@ -733,11 +733,14 @@ footer {
 
 .footerContainer {
   display: flex;
+  gap: 400px;
+  margin-top: 32px;
 }
 
 .footerLogo {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .footerTitle {
@@ -767,4 +770,36 @@ footer {
   height: 16px;
   display: flex;
   align-items: flex-end;
+}
+
+.footerLogo p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white-color);
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 12px;
+}
+
+.media h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+.iconsMedia {
+  display: flex;
+  gap: 8px;
+}
+
+.footerCopyRight p {
+  margin-top: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
 }

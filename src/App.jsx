@@ -303,14 +303,18 @@ function App() {
             </div>
             <p>Web designer and front-end developer</p>
           </article>
-          <article>
+          <article className={styles.media}>
             <h1>Media</h1>
-            <img src={Github} alt="" />
-            <img src={Figma} alt="" />
-            <img src={Discord} alt="" />
+            <div className={styles.iconsMedia}>
+              <img src={Github} alt="" />
+              <img src={Figma} alt="" />
+              <img src={Discord} alt="" />
+            </div>
           </article>
         </section>
-        <p>© Copyright 2022. Made by Elias</p>
+        <div className={styles.footerCopyRight}>
+          <p>© Copyright 2022. Made by Maria Eduarda</p>
+        </div>
       </footer>
     </div>
   );
