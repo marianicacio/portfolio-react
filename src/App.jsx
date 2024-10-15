@@ -72,7 +72,7 @@ function App() {
             <h1><span>#</span>projects</h1>
             <div className={styles.linePurple}></div>
           </div>
-          <button><a href=""> View all ~~> </a></button>
+          <button><a href="/src/components/projects"> View all</a></button>
         </div>
         <img src={Bolinhas} alt="" />
       </section>
@@ -261,7 +261,7 @@ function App() {
             <br />
 
             Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
-          <button>Read more -> </button>
+          <button>Read more </button>
         </div>
         <img src={AboutImage} alt="" />
         <div className={styles.balls}>
