@@ -72,7 +72,7 @@ function App() {
             <h1><span>#</span>projects</h1>
             <div className={styles.linePurple}></div>
           </div>
-          <button><a href="/src/components/projects"> View all</a></button>
+          <button><a href="/src/components/projects/index.jsx"> View all</a></button>
         </div>
         <img src={Bolinhas} alt="" />
       </section>
@@ -313,7 +313,7 @@ function App() {
           </article>
         </section>
         <div className={styles.footerCopyRight}>
-          <p>© Copyright 2022. Made by Maria Eduarda</p>
+          <p>© Copyright 2024. Made by Maria Eduarda</p>
         </div>
       </footer>
     </div>
