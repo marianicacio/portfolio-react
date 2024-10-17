@@ -1,0 +1,805 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+:root {
+  --purple-color: #C778DD;
+  --gray-color: #ABB2BF;
+  --background-color: #282C33;
+  --white-color: #FFFFFF;
+}
+
+.portifolioContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color);
+  font-family: "Fira Code", monospace;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 61px;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+
+.headerTitle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerTitle h1 {
+  font-family: "Fira Code", monospace;
+  color: var(--white-color);
+  width: 138px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.headerTitle img {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+  height: min-content;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav a {
+  text-decoration: none;
+  display: flex;
+}
+
+.nav p {
+  color: var(--gray-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav span {
+  color: var(--purple-color);
+}
+
+.nav select {
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 5px;
+  width: 40px;
+  height: 21px;
+  color: var(--gray-color);
+}
+
+.asideMedia {
+  position: absolute;
+  top: 0px;
+  left: 17px;
+  width: 32px;
+  height: 311px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  width: 1px;
+  height: 191px;
+  background-color: var(--gray-color);
+}
+
+.hero {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 62px;
+}
+
+.heroDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.heroDescription h1 {
+  width: 637px;
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--white-color);
+}
+
+.heroDescription span {
+  color: var(--purple-color);
+}
+
+.heroDescription p {
+  text-align: start;
+  width: 463px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.heroDescription button {
+  background-color: transparent;
+  border: solid 1px var(--purple-color);
+  color: var(--white-color);
+  width: 148px;
+  height: 37px;
+}
+
+.heroDescription button:hover {
+  transition: 2s;
+  background-color: var(--purple-color);
+}
+
+.heroImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rectangle {
+  width: 16px;
+  height: 16px;
+  background-color: var(--purple-color);
+}
+
+.heroCurrently {
+  display: flex;
+  gap: 3.5px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--white-color);
+  width: 402px;
+  height: 37px;
+}
+
+.heroCurrently p {
+  color: var(--gray-color);
+}
+
+.heroCurrently span {
+  color: var(--white-color);
+}
+
+.quote {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-top: 125px;
+}
+
+.quote p {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.quote h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+.quote img {
+  position: absolute;
+  right: 0px;
+}
+
+.phrase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 712px;
+  height: 95px;
+  border: var(--gray-color) solid 1px;
+}
+
+.phrase img {
+  background-color: var(--background-color);
+  display: flex;
+  position: absolute;
+  left: 670px;
+  width: 25.47px;
+  height: 20.7px;
+  top: 660px;
+}
+
+.drWho {
+  display: flex;
+  justify-content: center;
+  width: 162px;
+  height: 63px;
+  align-items: center;
+  border: var(--gray-color) solid 1px;
+}
+
+.drWho img {
+  background-color: var(--background-color);
+  display: flex;
+  position: absolute;
+  width: 25.47px;
+  height: 20.7px;
+  top: 755px;
+  right: 634px;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 74px;
+}
+
+.projects img {
+  position: absolute;
+  left: 0px;
+  top: 955px;
+}
+
+.projectsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.projectsTitle h1 {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.projectsTitle span {
+  color: var(--purple-color);
+}
+
+.projectsAlign button {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  font-family: 'Fira Code';
+}
+
+.projects a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.linePurple {
+  width: 511px;
+  height: 1px;
+  background-color: var(--purple-color);
+}
+
+.projectsAlign {
+  display: flex;
+  gap: 210px;
+}
+
+.projectsView {
+  display: flex;
+  margin-top: 48px;
+  gap: 16px;
+}
+
+.node {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gray-color);
+  width: 330.58px;
+  height: 391px;
+}
+
+.node h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--white-color);
+  margin-left: 8px;
+  margin-top: 16px;
+}
+
+.node p {
+  color: var(--gray-color);
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.languages {
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--gray-color);
+  width: 330.58px;
+  height: 37px;
+}
+
+.languages p {
+  display: flex;
+  color: var(--gray-color);
+  margin-left: 8px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.description h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--white-color);
+  margin-left: 8px;
+  margin-top: 16px;
+}
+
+.description p {
+  color: var(--gray-color);
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.liveButton button {
+  border: 1px solid var(--purple-color);
+  width: 109px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Fira Code';
+  color: var(--white-color);
+  background-color: transparent;
+}
+
+.cachedButton button {
+  border: 1px solid var(--gray-color);
+  width: 109px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Fira Code';
+  color: var(--gray-color);
+  background-color: transparent;
+}
+
+.liveButton button:hover {
+  background-color: var(--purple-color);
+  width: 109px;
+  height: 37px;
+  transition-duration: 2s;
+}
+
+.cachedButton button:hover {
+  background-color: #9123af;
+  width: 109px;
+  height: 37px;
+  transition-duration: 2s;
+}
+
+.protectX {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gray-color);
+  width: 330.58px;
+  height: 428px;
+}
+
+.technologyOne {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.languagesProtectX {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  align-items: start;
+  border: 1px solid var(--gray-color);
+  width: 330.58px;
+  height: 74px;
+}
+
+.languagesProtectX p {
+  display: flex;
+  color: var(--gray-color);
+  margin-left: 8px;
+}
+
+.kahoot {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gray-color);
+  width: 330.58px;
+  height: 422px;
+}
+
+.skillsSection {
+  display: flex;
+  margin-top: 106px;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.skills img {
+  margin-left: 90px;
+}
+
+.skills .projectsTitle {
+  display: flex;
+  margin-left: 90px;
+  justify-content: start;
+}
+
+.linePurple2 {
+  width: 235px;
+  height: 1px;
+  background-color: var(--purple-color);
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 178px;
+  height: 103px;
+  border: solid 1px var(--gray-color);
+}
+
+.skillsBorder {
+  width: 178px;
+  height: 37px;
+  border: solid 1px var(--gray-color);
+}
+
+.skillsBorder h1 {
+  font-weight: 600;
+  font-size: 16px;
+  height: 29px;
+  margin-top: 6px;
+  color: var(--white-color);
+  margin-left: 8px;
+}
+
+.skillsSquare {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.skillsDescription {
+  display: flex;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+.skillsDescription p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray-color);
+}
+
+.skillsContainerTwo {
+  display: flex;
+  flex-direction: column;
+  width: 196px;
+  height: 132px;
+  border: solid 1px var(--gray-color);
+}
+
+.skillsBorderTwo {
+  width: 196px;
+  height: 37px;
+  border: solid 1px var(--gray-color);
+}
+
+.skillsBorderTwo h1 {
+  font-weight: 600;
+  font-size: 16px;
+  height: 29px;
+  margin-top: 6px;
+  color: var(--white-color);
+  margin-left: 8px;
+}
+
+.skillsAlign {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 120px;
+}
+
+.skillsAlignTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 180px;
+}
+
+.heroTwo {
+  display: flex;
+  gap: 166px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 112px;
+}
+
+.heroDescriptionTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.heroDescriptionTwo h1 {
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--white-color);
+}
+
+.heroDescriptionTwo span {
+  color: var(--purple-color);
+}
+
+.heroDescriptionTwo p {
+  text-align: start;
+  width: 515px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.heroDescriptionTwo button {
+  background-color: transparent;
+  border: solid 1px var(--purple-color);
+  color: var(--white-color);
+  width: 148px;
+  height: 37px;
+}
+
+.heroDescriptionTwo button:hover {
+  transition: 2s;
+  background-color: var(--purple-color);
+}
+
+.linePurple3 {
+  width: 326px;
+  height: 1px;
+  background-color: var(--purple-color);
+}
+
+.square {
+  position: absolute;
+  left: 0px;
+  top: 2290px;
+}
+
+.balls {
+  position: absolute;
+  right: 10px;
+  top: 2400px;
+}
+
+.contacts {
+  display: flex;
+  gap: 130px;
+}
+
+.contactsBalls {
+  position: absolute;
+  top: 2755px;
+  left: 0px;
+}
+
+.contactsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.contactsTitle h1 {
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.contactsTitle span {
+  color: var(--purple-color);
+}
+
+.linePurple4 {
+  width: 127px;
+  height: 1px;
+  background-color: var(--purple-color);
+}
+
+.contactsTitle p {
+  width: 505px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 45px;
+}
+
+.contactsContainer p {
+  width: 505px;
+  color: var(--gray-color);
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gray-color);
+  width: 389px;
+  gap: 16px;
+  margin-top: 140px;
+  height: 120px;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 5px;
+  padding-left: 16px;
+}
+
+.message h1 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 16px;
+  padding-left: 16px;
+  color: var(--white-color);
+}
+
+.socialMedia p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 176px;
+  border: 1px var(--white-color) solid;
+  width: 100%;
+  height: 208px;
+}
+
+.footerContainer {
+  display: flex;
+  gap: 400px;
+  margin-top: 32px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footerTitle {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.footerTitle h1 {
+  font-family: "Fira Code", monospace;
+  color: var(--white-color);
+  width: 138px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.footerTitle h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
+
+.footerTitle img {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footerLogo p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white-color);
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 12px;
+}
+
+.media h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+.iconsMedia {
+  display: flex;
+  gap: 8px;
+}
+
+.footerCopyRight p {
+  margin-top: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
