@@ -803,3 +803,9 @@ footer {
   font-size: 16px;
   color: var(--gray-color);
 }
+
+@media (max-width: 820px) {
+  .nav {
+    display: none;
+  }
+}
