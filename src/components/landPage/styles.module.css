@@ -828,10 +828,14 @@ footer {
 }
 
 .heroDescription p {
-  text-align: start;
   width: 409px;
-  font-weight: 400;
   font-size: 16px;
-  color: var(--gray-color);
+}
+
+.quote {
+  display: none;
+  align-items: end;
+  justify-content: end;
+  margin-top: 125px;
 }
 }
