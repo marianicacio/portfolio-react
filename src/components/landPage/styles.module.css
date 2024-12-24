@@ -808,4 +808,30 @@ footer {
   .nav {
     display: none;
   }
+
+  
+.hero {
+  flex-direction: column-reverse;
+  gap: 28px;
+}
+
+.heroDescription {
+  gap: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroDescription h1 {
+  width: 407px;
+  font-size: 22px;
+}
+
+.heroDescription p {
+  text-align: start;
+  width: 409px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray-color);
+}
 }
