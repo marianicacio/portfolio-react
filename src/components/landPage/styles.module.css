@@ -834,8 +834,12 @@ footer {
 
 .quote {
   display: none;
-  align-items: end;
-  justify-content: end;
-  margin-top: 125px;
+}
+
+.projectsView {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  gap: 16px;
 }
 }
