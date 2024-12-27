@@ -809,37 +809,42 @@ footer {
     display: none;
   }
 
-  
-.hero {
-  flex-direction: column-reverse;
-  gap: 28px;
-}
 
-.heroDescription {
-  gap: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .hero {
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
 
-.heroDescription h1 {
-  width: 407px;
-  font-size: 22px;
-}
+  .heroImage img {
+    width: 300px;
+    height: auto;
+  }
 
-.heroDescription p {
-  width: 409px;
-  font-size: 16px;
-}
+  .heroDescription {
+    gap: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.quote {
-  display: none;
-}
+  .heroDescription h1 {
+    width: 407px;
+    font-size: 22px;
+  }
 
-.projectsView {
-  display: flex;
-  flex-direction: column;
-  margin-top: 48px;
-  gap: 16px;
-}
+  .heroDescription p {
+    width: 409px;
+    font-size: 16px;
+  }
+
+  .quote {
+    display: none;
+  }
+
+  .projectsView {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 16px;
+  }
 }
