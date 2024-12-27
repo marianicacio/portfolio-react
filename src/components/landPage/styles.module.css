@@ -815,6 +815,11 @@ footer {
     gap: 28px;
   }
 
+  .heroCurrently {
+    width: 202px;
+    height: 37px;
+  }
+
   .heroImage img {
     width: 300px;
     height: auto;
