@@ -822,7 +822,7 @@ footer {
 
   .heroCurrently p {
     font-size: 8px;
-}
+  }
 
   .heroImage img {
     width: 300px;
@@ -856,4 +856,13 @@ footer {
     margin-top: 48px;
     gap: 16px;
   }
+
+  .linePurple {
+    width: 111px;
+  }
+
+  .projectsAlign button {
+    display: none;
+  }
+
 }
