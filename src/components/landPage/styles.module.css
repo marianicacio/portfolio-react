@@ -865,4 +865,9 @@ footer {
     display: none;
   }
 
+  
+.projects img {
+  display: none;
+}
+
 }
