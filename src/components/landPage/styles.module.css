@@ -870,4 +870,12 @@ footer {
   display: none;
 }
 
+.skills img {
+  display: none;
+}
+
+.skillsSection {
+  flex-direction: column;
+  gap: 20px;
+}
 }
