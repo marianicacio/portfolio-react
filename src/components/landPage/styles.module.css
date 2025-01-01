@@ -878,4 +878,15 @@ footer {
   flex-direction: column;
   gap: 20px;
 }
+
+.skillsAlign {
+  margin-top: 0px;
+}
+
+.skillsAlignTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 0px;
+}
 }
