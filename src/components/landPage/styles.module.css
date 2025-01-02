@@ -884,9 +884,10 @@ footer {
 }
 
 .skillsAlignTwo {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
   margin-top: 0px;
+}
+
+.square img {
+  display: none;
 }
 }
