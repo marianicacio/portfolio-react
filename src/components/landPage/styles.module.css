@@ -887,7 +887,12 @@ footer {
   margin-top: 0px;
 }
 
-.square img {
-  display: none;
+.heroTwo {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 166px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 112px;
 }
 }
