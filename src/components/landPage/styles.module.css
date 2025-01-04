@@ -870,6 +870,13 @@ footer {
   display: none;
 }
 
+.projectsTitle {
+  display: flex;
+  justify-content: start;
+  /* align-items: start; */
+  gap: 16px;
+}
+
 .skills img {
   display: none;
 }
@@ -887,6 +894,10 @@ footer {
   margin-top: 0px;
 }
 
+.linePurple2 {
+  width: 151px;
+}
+
 .heroTwo {
   display: flex;
   flex-direction: column-reverse;
@@ -895,4 +906,5 @@ footer {
   align-items: center;
   margin-top: 112px;
 }
+
 }
