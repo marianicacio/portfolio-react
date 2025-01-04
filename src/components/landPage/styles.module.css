@@ -871,10 +871,7 @@ footer {
 }
 
 .projectsTitle {
-  display: flex;
-  justify-content: start;
-  /* align-items: start; */
-  gap: 16px;
+  width: 400px;
 }
 
 .skills img {
@@ -895,7 +892,7 @@ footer {
 }
 
 .linePurple2 {
-  width: 151px;
+  width: 111px;
 }
 
 .heroTwo {
