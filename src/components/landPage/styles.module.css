@@ -896,12 +896,19 @@ footer {
 }
 
 .heroTwo {
-  display: flex;
   flex-direction: column-reverse;
-  gap: 166px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 112px;
+}
+
+.square {
+  display: none;
+}
+
+.balls {
+  display: none;
+}
+
+.contactsBalls {
+  display: none;
 }
 
 }
