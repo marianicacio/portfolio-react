@@ -917,11 +917,16 @@ footer {
   }
 
   .heroDescriptionTwo {
-    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 32px;
+  }
+
+  .heroDescriptionTwo p {
+    text-align: start;
+    width: 300px;
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--gray-color);
   }
 
   .linePurple3 {
