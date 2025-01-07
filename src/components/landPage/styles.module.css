@@ -916,4 +916,15 @@ footer {
     display: none;
   }
 
+  .heroDescriptionTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .linePurple3 {
+    width: 101px;
+  }
 }
