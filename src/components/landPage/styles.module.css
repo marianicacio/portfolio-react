@@ -932,4 +932,9 @@ footer {
   .linePurple3 {
     width: 101px;
   }
+
+  .contacts {
+    flex-direction: column;
+    margin-top: 200px;
+  }
 }
