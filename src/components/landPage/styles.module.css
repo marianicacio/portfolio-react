@@ -935,6 +935,12 @@ footer {
 
   .contacts {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 200px;
+  }
+
+  .linePurple4 {
+    width: 101px;
   }
 }
