@@ -943,4 +943,9 @@ footer {
   .linePurple4 {
     width: 101px;
   }
+
+  .contactsContainer p {
+    width: 305px;
+    font-size: 13px;
+  }
 }
