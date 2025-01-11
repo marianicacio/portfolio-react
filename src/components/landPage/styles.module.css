@@ -948,4 +948,16 @@ footer {
     width: 305px;
     font-size: 13px;
   }
+
+  .message {
+    width: 289px;
+  }
+
+  .socialMedia {
+    align-items: center;
+  }
+
+  .socialMedia p {
+    font-size: 11px;
+  }
 }
