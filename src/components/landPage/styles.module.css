@@ -960,4 +960,13 @@ footer {
   .socialMedia p {
     font-size: 11px;
   }
+
+  footer {
+    height: 208px;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
