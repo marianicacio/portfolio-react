@@ -969,4 +969,18 @@ footer {
     flex-direction: column;
     gap: 50px;
   }
+
+  .footerTitle h1 {
+    font-family: "Fira Code", monospace;
+    color: var(--white-color);
+    width: 138px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .footerTitle h2 {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--gray-color);
+  }
 }
