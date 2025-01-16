@@ -967,9 +967,10 @@ footer {
 
   .footerContainer {
     flex-direction: column;
+    width: 200px;
     gap: 50px;
   }
-
+  
   .footerTitle h1 {
     font-family: "Fira Code", monospace;
     color: var(--white-color);
