@@ -971,16 +971,11 @@ footer {
   }
   
   .footerTitle h1 {
-    font-family: "Fira Code", monospace;
-    color: var(--white-color);
     width: 38px;
-    font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .footerTitle h2 {
-    font-weight: 400;
-    font-size: 13px;
-    color: var(--gray-color);
+    font-size: 10px;
   }
 }
