@@ -981,7 +981,9 @@ footer {
 
   .footerLogo p {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 10px;
     color: var(--white-color);
   }
+
+
 }
