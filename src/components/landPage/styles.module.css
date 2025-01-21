@@ -980,10 +980,12 @@ footer {
   }
 
   .footerLogo p {
-    font-weight: 400;
     font-size: 10px;
-    color: var(--white-color);
   }
 
-
+  .media h1 {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--white-color);
+  }
 }
